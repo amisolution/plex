@@ -7,8 +7,8 @@ export const schema: JSONSchema4 = {
         tokens: {
             type: "string",
             title: "Token",
-            enum: ["REP", "MKR", "ZRX"],
-            enumNames: ["Augur (REP)", "Maker DAO (MKR)", "0x Token (ZRX)"],
+            enum: ["REP", "MKR", "ZRX", "AMIS"],
+            enumNames: ["Augur (REP)", "Maker DAO (MKR)", "0x Token (ZRX)", "AMIS (AMIS)"],
         },
     },
     properties: {
