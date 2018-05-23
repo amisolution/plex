@@ -102,6 +102,10 @@ describe("TokenSearch (Unit)", () => {
 
         const SCENARIOS: Scenario[] = [
             {
+                query: "A",
+                resultSet: ["AMIS", "AE", "AION"],
+            },
+            {
                 query: "E",
                 resultSet: ["EOS", "OMG", "MKR", "REP"],
             },
