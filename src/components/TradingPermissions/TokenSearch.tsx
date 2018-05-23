@@ -42,7 +42,7 @@ export const MAX_RESULTS = 4;
  *
  * @type {string[]}
  */
-export const DEFAULT_RESULTS = ["REP", "WETH", "MKR", "ZRX"];
+export const DEFAULT_RESULTS = ["REP", "WETH", "MKR", "ZRX", "AMIS"];
 
 export class TokenSearch extends React.Component<Readonly<Props>, State> {
     state = {
